@@ -64,13 +64,19 @@ input[type='submit']{
     border: none;
     padding: 5px;
 }
+
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ============================================== submit button ===================================== */
 input[type='submit']:hover{
     cursor: pointer;
     background-color:rgb(15, 75, 4);
     
 }
-
-input{
-    width: 100%;
-    margin-bottom: 10px;
+.submitButton:active{
+     transform: scale(1.1);
 }
